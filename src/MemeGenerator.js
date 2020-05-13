@@ -55,7 +55,7 @@ import React from "react"
 							<button>Gen</button>
 						</form>
 						<div className="meme">
-							<img style={{width:1250,height:600}}src={this.state.randomImg} alt=""/>
+							<img className = "fit"src={this.state.randomImg} alt=""/>
 							<h2 className="top">{this.state.topText}</h2>
 							<h2 className="bottom">{this.state.bottomText}</h2>
 						</div>
